@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Voting Eligibility</h1>
+    </center>
+    <script>
+        let a=parseInt(prompt("Enter age:"));
+        if(a>=18){
+            alert("Eligible to vote");
+            var c=confirm("Do you want to vote?");
+            if(c==true){
+                alert("You registered for vote");
+            }
+            else{
+                alert("You not registered for vote");
+            }
+        }
+        else{
+            alert("Not eligible to vote");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <input type="button" value="Display" onclick="p(5)">
+    </center>
+
+    <script>
+        function hello(){
+            let a = parseInt(prompt("Enter number a:"));
+            let b = parseInt(prompt("Enter number b:"));
+            let c = a + b;
+            console.log("Sum of a and b is: " + c);
+        }
+
+        function fn(f)
+        {
+            return f;
+        }
+
+        function Ln(l)
+        {
+            return l;
+        }
+
+        function display()
+        {
+            var first = fn("Hello");
+            var last = Ln("World");
+            console.log(first + " " + last);
+        }
+        function p(n){
+            for(let i=0;i<2*n;i++){
+                if(i<n){
+                    console.log("* ".repeat(i));
+                }
+                else{
+                    console.log("* ".repeat(2*n-i));
+                }
+                
+            }
+        }
+
+    </script>
+</body>
+</html>

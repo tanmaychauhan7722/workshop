@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        #nav {
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: antiquewhite;
+        }
+
+        .box {
+            text-align: center;
+            margin: auto;
+            font-size: 20px;
+        }
+
+        @media only screen and (max-width: 850px) {
+            #nav{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="nav">
+            <div class="box">Shopping Web</div>
+            <div class="box">Home</div>
+            <div class="box">Product</div>
+            <div class="box">Category</div>
+            <div class="box"> Deal</div>
+            <div class="box">Contact</div>
+            <div class="box">Cart</div>
+            <div class="box">Login</div>
+        </div>
+    </main>
+</body>
+</html>
