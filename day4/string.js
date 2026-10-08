@@ -1,0 +1,14 @@
+let name="Tanmay chauhan";
+console.log(name);
+console.log("Lower case",name.toLowerCase());
+console.log("Upper case",name.toUpperCase());
+console.log("character at index 3 = ",name.charAt(3));
+console.log("Index of Tanmay = ", name.indexOf("Tanmay"));
+console.log("Last index of an = ", name.lastIndexOf("an"));
+console.log("Slice = ", name.slice(0,7));
+let data= "HTML,CSS,JAVASCRIPT";
+let result=data.split(',');
+console.log(result);
+console.log(data.replace("HTML","JAVA"));
+console.log(data.includes("JAVA"));
+var a="String is a good";
